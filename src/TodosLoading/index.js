@@ -1,8 +1,8 @@
 import React from 'react';
-//import './TodosLoading.css'
+import './TodosLoading.css'
 function TodosLoading(){  
     return (
-      <p>Cargando...</p>
+      <p className='spinner'></p>
     ); 
   }
 
