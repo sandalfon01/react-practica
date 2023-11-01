@@ -22,7 +22,7 @@ function useLocalStorage(itemName, initialValue){
           setError(true);
         }
       }, 2000);
-    })
+    });
     
     
     const saveItem = (newItem) => {
@@ -37,3 +37,13 @@ function useLocalStorage(itemName, initialValue){
     };
   };
   export { useLocalStorage };
+  //localStorage.removeItem('TODOS_V1');
+/*const defaultTodos =[
+  {text: 'Cortar cebolla', completed:true},
+  {text: 'Tomar el curso de intro a React.js', completed:false},
+  {text: 'Llorar con la Llorona', completed:false},
+  {text: 'No joda hombeeeeeeeeeee', completed:false},
+  {text: 'Comunicar estados', completed:true}, 
+];
+
+localStorage.setItem('TODOS_V1', defaultTodos);*/
